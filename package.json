@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-debug-mq",
+  "name": "@whiterussianstudio/tailwind-debug-mq",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com"
   },
   "version": "1.0.0",
   "repository": {
