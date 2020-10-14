@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-debug-mq",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whiterussianstudio/tailwind-debug-mq.git"
+  },
+  "description": "Tailwind CSS Plugin to debug your breakpoints",
+  "main": "index.js",
+  "keywords": [
+    "tailwindcss",
+    "tailwindcss-plugin",
+    "tailwind-plugin",
+    "tailwind-breakpoint",
+    "tailwind-debug"
+  ],
+  "author": "Pasha Frolov",
+  "license": "MIT"
+}
