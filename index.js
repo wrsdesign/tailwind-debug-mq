@@ -17,10 +17,16 @@ module.exports = ({ addComponents, theme }) => {
       zIndex: "2147483638",
       content: "'Unset'",
     },
+    ":root": {
+      "--breakpoint": `'${breakpoint}'`,
+    },
   };
 
   Object.entries(screens).map(([breakpoint, width]) => {
     components[`@screen ${breakpoint}`] = {
+      ":root": {
+        "--breakpoint": `'${breakpoint}'`,
+      },
       ".debug-mq::after": {
         content: `'${width} | ${breakpoint}'`,
       },
