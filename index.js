@@ -18,7 +18,7 @@ module.exports = ({ addComponents, theme }) => {
       content: "'Unset'",
     },
     ":root": {
-      "--breakpoint": `'${breakpoint}'`,
+      "--breakpoint": "unset",
     },
   };
 
