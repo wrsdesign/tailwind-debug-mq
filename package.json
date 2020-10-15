@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/whiterussianstudio/tailwind-debug-mq.git"
+    "url": "git://github.com/whiterussianstudio/tailwind-debug-mq.git"
   },
   "description": "Tailwind CSS Plugin to debug your breakpoints",
   "main": "index.js",
