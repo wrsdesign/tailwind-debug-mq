@@ -9,7 +9,7 @@ module.exports = ({ addComponents, theme }) => {
       backgroundColor: "black",
       color: "white",
       padding: "10px",
-      outline: "1px solid white"
+      outline: "1px solid white",
       borderRadius: "2px",
       fontFamily: "monospace",
       fontSize: "11px",
