@@ -1,6 +1,6 @@
 ## Tailwind CSS Debug Media Queries
 
-Tailwind CSS plugin that displays an active breakpoint.
+Tailwind CSS plugin that displays a currently active media query breakpoint.
 
 ### Installation and Setup
 
