@@ -1,23 +1,27 @@
 ## Tailwind CSS Debug Media Queries
-Tailwind component that shows the active breakpoint.
 
-### Installation and usage
-`npm install @whiterussianstudio/tailwind-debug-mq --save-dev`
+Tailwind CSS plugin that displays an active breakpoint.
 
-Add plugin to `plugins` array in tailwind.config.js.
+### Installation and Setup
+
+```
+npm install @whiterussianstudio/tailwind-debug-mq --save-dev
+```
+
+Add plugin to a `plugins` array in the configuration file:
 
 ```js
+// tailwind.config.js
 plugins: [
   require('@whiterussianstudio/tailwind-debug-mq'),
   ...
 ]
 ```
 
-Add `debug-mq` class to your body
+Then add `debug-mq` class attribute to the tag `<body>`:
 
 ```html
-  <body class="debug-mq">
+<body class="debug-mq">
   ...
-  </body>
+</body>
 ```
-
