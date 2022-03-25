@@ -2,6 +2,8 @@
 
 Tailwind CSS plugin that displays a currently active media query breakpoint.
 
+<img width="1552" alt="tailwind-debug-mq" src="https://user-images.githubusercontent.com/53351370/160080172-e35cf08b-ccd2-49d2-924d-4c746d86a8b5.png">
+
 ### Installation and Setup
 
 ```
